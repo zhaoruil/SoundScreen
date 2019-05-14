@@ -1,0 +1,86 @@
+PortAudio version: 0x00130600
+Version text: 'PortAudio V19.6.0-devel, revision 396fe4b6699ae929d3a685b3ef8a7e97396139a4'
+Number of devices = 4
+--------------------------------------- device #0
+Name                        = bcm2835 ALSA: - (hw:0,0)
+Host API                    = ALSA
+Max inputs = 0, Max outputs = 2
+Default low input latency   =  -1.0000
+Default low output latency  =   0.0058
+Default high input latency  =  -1.0000
+Default high output latency =   0.0348
+Default sample rate         = 44100.00
+Supported standard sample rates
+ for half-duplex 16 bit 2 channel output = 
+	 8000.00,  9600.00, 11025.00, 12000.00,
+	16000.00, 22050.00, 24000.00, 32000.00,
+	44100.00, 48000.00
+--------------------------------------- device #1
+Name                        = bcm2835 ALSA: IEC958/HDMI (hw:0,1)
+Host API                    = ALSA
+Max inputs = 0, Max outputs = 2
+Default low input latency   =  -1.0000
+Default low output latency  =   0.0058
+Default high input latency  =  -1.0000
+Default high output latency =   0.0348
+Default sample rate         = 44100.00
+Supported standard sample rates
+ for half-duplex 16 bit 2 channel output = 
+	44100.00, 48000.00
+	
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+--------------------------------------- device #2
+Name                        = snd_rpi_simple_card: - (hw:1,0)
+Host API                    = ALSA
+Max inputs = 2, Max outputs = 2
+Default low input latency   =   0.0058
+Default low output latency  =   0.0087
+Default high input latency  =   0.0348
+Default high output latency =   0.0348
+Default sample rate         = 44100.00
+Supported standard sample rates
+ for half-duplex 16 bit 2 channel input = 
+	 8000.00, 11025.00, 16000.00, 22050.00,
+	32000.00, 44100.00, 48000.00, 88200.00,
+	96000.00, 192000.00
+Supported standard sample rates
+ for half-duplex 16 bit 2 channel output = 
+	 8000.00, 11025.00, 16000.00, 22050.00,
+	32000.00, 44100.00, 48000.00, 88200.00,
+	96000.00, 192000.00
+Supported standard sample rates
+ for full-duplex 16 bit 2 channel input, 2 channel output = 
+	 8000.00, 11025.00, 16000.00, 22050.00,
+	32000.00, 44100.00, 48000.00, 88200.00,
+	96000.00, 192000.00
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!	
+
+--------------------------------------- device #3
+[ Default Input, Default Output ]
+Name                        = default
+Host API                    = ALSA
+Max inputs = 32, Max outputs = 32
+Default low input latency   =   0.0087
+Default low output latency  =   0.0087
+Default high input latency  =   0.0348
+Default high output latency =   0.0348
+Default sample rate         = 44100.00
+Supported standard sample rates
+ for half-duplex 16 bit 32 channel input = 
+	 8000.00,  9600.00, 11025.00, 12000.00,
+	16000.00, 22050.00, 24000.00, 32000.00,
+	44100.00, 48000.00, 88200.00, 96000.00,
+	192000.00
+Supported standard sample rates
+ for half-duplex 16 bit 32 channel output = 
+	 8000.00,  9600.00, 11025.00, 12000.00,
+	16000.00, 22050.00, 24000.00, 32000.00,
+	44100.00, 48000.00, 88200.00, 96000.00,
+	192000.00
+Supported standard sample rates
+ for full-duplex 16 bit 32 channel input, 32 channel output = 
+	 8000.00,  9600.00, 11025.00, 12000.00,
+	16000.00, 22050.00, 24000.00, 32000.00,
+	44100.00, 48000.00, 88200.00, 96000.00,
+	192000.00
+----------------------------------------------

@@ -1,0 +1,4 @@
+record: arecord -D plughw:1 -c2 -r 44100 -f S32_LE -t wav -V stereo -v <file>
+play: omxplayer -o local <file>
+
+device: snd_rpi_simple_card?
